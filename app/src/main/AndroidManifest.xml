@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.unite4_kararvedongu">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Unite4_KararVeDongu"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Uyg1Activity" android:label="@string/uyg1_name"></activity>
+        <activity android:name=".Uyg2Activity" android:label="@string/uyg2_name"></activity>
+        <activity android:name=".Uyg3Activity" android:label="@string/uyg3_name"></activity>
+        <activity android:name=".Uyg4Activity" android:label="@string/uyg4_name"></activity>
+        <activity android:name=".Uyg5Activity" android:label="@string/uyg5_name"></activity>
+        <activity android:name=".Uyg6Activity" android:label="@string/uyg6_name"></activity>
+        <activity android:name=".Uyg7Activity" android:label="@string/uyg7_name"></activity>
+        <activity android:name=".Uyg8Activity" android:label="@string/uyg8_name"></activity>
+        <activity android:name=".Uyg9Activity" android:label="@string/uyg9_name"></activity>
+        <activity android:name=".Uyg10Activity" android:label="@string/uyg10_name"></activity>
+
+    </application>
+
+</manifest>
