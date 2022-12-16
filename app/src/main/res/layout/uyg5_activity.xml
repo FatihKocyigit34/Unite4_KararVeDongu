@@ -23,7 +23,8 @@
         android:id="@+id/btnHesapla"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hesapla"
+        android:onClick="uyg5BtnCalistir"
+        android:text="@string/hesapla"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.844"
@@ -38,12 +39,15 @@
         android:ems="10"
         android:hint="@string/dersnot1"
         android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.349" />
+        app:layout_constraintVertical_bias="0.349"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTxtNot3"
@@ -52,12 +56,16 @@
         android:ems="10"
         android:hint="@string/dersnot2"
         android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.511" />
+        app:layout_constraintVertical_bias="0.511"
+        tools:ignore="DuplicateSpeakableTextCheck"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTxtNot2"
@@ -66,11 +74,14 @@
         android:ems="10"
         android:hint="@string/dersnot2"
         android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.432" />
+        app:layout_constraintVertical_bias="0.432"
+        android:autofillHints="" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

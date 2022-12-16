@@ -23,7 +23,6 @@
         android:id="@+id/switchKonumServisleri"
         android:layout_width="183dp"
         android:layout_height="48dp"
-        android:onClick="uyg4SwitchCalistir"
         android:text="@string/konum_servisleri"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,4 +54,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.172" />
+
+    <Button
+        android:id="@+id/btnCalistirUyg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="uyg4BtnCalistir"
+        android:text="Çalıştır"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314" />
 </androidx.constraintlayout.widget.ConstraintLayout>
