@@ -9,7 +9,7 @@
         android:id="@+id/btnCalistirUyg6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="uyg5BtnCalistir"
+        android:onClick="uyg6BtnBaslat"
         android:text="Onayla"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.972" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/TxtAylar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
