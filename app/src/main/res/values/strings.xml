@@ -12,5 +12,15 @@
     <string name="uyg10_name">Uygulama 10(Faktoriyel)</string>
     <string name="sayi1">Sayı 1</string>
     <string name="sayi2">Sayı 2</string>
+    <string name="kullaniciadi">Kullanıcı Adı</string>
+    <string name="sifre">Şifre</string>
+    <string name="geridon">Geri Dön</string>
+    <string name="girisyap">Giriş Yap</string>
+    <string name="konum_servisleri">Konum Servisleri</string>
+    <string name="konum_bilgilerini_al">Konum Bilgilerini Al</string>
+    <string name="konum_bilgilerini_goster">Konum Bilgilerini Göster</string>
+    <string name="dersnot1">1. Ders Notu</string>
+    <string name="dersnot2">2. Ders Notu</string>
+    <string name="dersnot3">3. Ders Notu</string>
 
 </resources>

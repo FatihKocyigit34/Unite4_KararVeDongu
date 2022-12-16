@@ -17,4 +17,10 @@ public class Uyg4Activity extends AppCompatActivity {
         Intent i = new Intent(Uyg4Activity.this, MainActivity.class);
         startActivity(i);
     }
+
+    public void uyg4SwitchCalistir (View view)
+    {
+
+
+    }
 }

@@ -17,4 +17,9 @@ public class Uyg5Activity extends AppCompatActivity {
         Intent i = new Intent(Uyg5Activity.this, MainActivity.class);
         startActivity(i);
     }
+
+    public void uyg5BtnCalistir (View view)
+    {
+
+    }
 }

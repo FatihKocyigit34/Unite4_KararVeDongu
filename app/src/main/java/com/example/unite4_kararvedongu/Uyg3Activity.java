@@ -18,4 +18,9 @@ public class Uyg3Activity extends AppCompatActivity {
         Intent i = new Intent(Uyg3Activity.this, MainActivity.class);
         startActivity(i);
     }
+
+    public void  uyg3BtnCalistir (View view)
+    {
+
+    }
 }
