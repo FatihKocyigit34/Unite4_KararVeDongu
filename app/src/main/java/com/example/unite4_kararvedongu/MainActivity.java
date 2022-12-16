@@ -29,4 +29,8 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, Uyg4Activity.class);
         startActivity(i);
     }
+    public void  uyg5BtnGoster (View view){
+        Intent i = new Intent(MainActivity.this, Uyg5Activity.class);
+        startActivity(i);
+    }
 }
