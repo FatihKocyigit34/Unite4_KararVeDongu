@@ -29,7 +29,7 @@ public class Uyg9Activity extends AppCompatActivity {
         {
             if (i%2==0)
             {
-                txtSayilar.setText(txtSayilar.getText().toString() + "-" + i);
+                txtSayilar.setText(txtSayilar.getText().toString() + i + "-");
             }
         }
     }
@@ -42,7 +42,7 @@ public class Uyg9Activity extends AppCompatActivity {
         {
             if (i%2==1)
             {
-                txtSayilar.setText(txtSayilar.getText().toString() + "-" + i);
+                txtSayilar.setText(txtSayilar.getText().toString() + i + "-");
             }
         }
     }
@@ -53,7 +53,7 @@ public class Uyg9Activity extends AppCompatActivity {
         int dongusayisi = Integer.parseInt(txtDonguSayisi.getText().toString());
         for (int i=0; i<=dongusayisi; i++)
         {
-            txtSayilar.setText(txtSayilar.getText().toString() + "-" + i);
+            txtSayilar.setText(txtSayilar.getText().toString() + i + "-");
         }
     }
 
