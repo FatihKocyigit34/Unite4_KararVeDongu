@@ -25,5 +25,6 @@
     <string name="hesapla">Hesapla</string>
     <string name="goldsoru1">Gold Soru (Çarpım Tablosu)</string>
     <string name="birsayigiriniz">Bir Sayı Giriniz</string>
+    <string name="goldsoru2">Gold Soru (Tek Ve Çift Sayıların Toplamı)</string>
 
 </resources>

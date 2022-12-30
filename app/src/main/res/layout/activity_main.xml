@@ -138,17 +138,31 @@
 
     <Button
         android:id="@+id/btnGoldSoru1"
-        android:layout_width="112dp"
-        android:layout_height="92dp"
+        android:layout_width="143dp"
+        android:layout_height="117dp"
         android:backgroundTint="#FF9800"
         android:onClick="goldsoru1"
         android:text="Gold Soru 1 (Çarpım Tablosu)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.89" />
+        app:layout_constraintVertical_bias="0.907" />
+
+    <Button
+        android:id="@+id/btnGoldSoru"
+        android:layout_width="136dp"
+        android:layout_height="116dp"
+        android:backgroundTint="#FF9800"
+        android:onClick="goldsoru2"
+        android:text="Gold Soru 2 (Tek Ve Çift Sayıların Toplamı)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.907" />
 
     <TextView
         android:id="@+id/textView3"
