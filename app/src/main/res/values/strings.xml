@@ -23,5 +23,7 @@
     <string name="dersnot2">2. Ders Notu</string>
     <string name="dersnot3">3. Ders Notu</string>
     <string name="hesapla">Hesapla</string>
+    <string name="goldsoru1">Gold Soru (Çarpım Tablosu)</string>
+    <string name="birsayigiriniz">Bir Sayı Giriniz</string>
 
 </resources>
