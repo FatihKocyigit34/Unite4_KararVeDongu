@@ -63,4 +63,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, GoldSoru2Activity.class);
         startActivity(i);
     }
+    public void goldsoru3 (View view)
+    {
+        Intent i = new Intent(MainActivity.this, GoldSoru3Activity.class);
+        startActivity(i);
+    }
 }

@@ -23,14 +23,21 @@ public class GoldSoru2Activity extends AppCompatActivity {
     public void GoldSoru2Calistir (View view)
     {
         int sayi = Integer.parseInt(GoldSoru2SayiGiriniz.getText().toString());
+
         int sayac = 0;
+        int sonucteksayi = 0;
+        int sonucciftsayi = 0;
+
        while (sayac <= sayi)
        {
            if (sayac%2==1)
            {
-               int oncekisayitek = sayac;
-               int sonucteksayi = sayac + oncekisayitek;
+               sonucteksayi = sayac + sonucteksayi;
                GoldSoru2MultiText1.setText(GoldSoru2MultiText1.getText().toString() + sonucteksayi + "\n");
+           } else
+           {
+               sonucciftsayi = sayac + sonucciftsayi;
+               GoldSoru2MultiText2.setText(GoldSoru2MultiText2.getText().toString() + sonucciftsayi + "\n");
            }
            sayac++;
        }
